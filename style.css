@@ -1,7 +1,9 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Inter", sans-serif;
 }
+
 .container-header {
   display: flex;
   justify-content: space-between;
@@ -88,6 +90,8 @@
 
 .fst-btn {
   margin-right: 200px;
+  width: 164px;
+  height: 44px;
 }
 
 .fst-btn .btn {
@@ -95,7 +99,11 @@
   display: flex;
   align-items: center;
   padding-left: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fst-btn .btn:hover {
+  background-color: #627382;
+  border: 2px solid #30b868;
 }
 
 .btn:hover {
@@ -112,8 +120,7 @@
   width: 198px;
   height: 52px;
   border-radius: 5px;
-  border: 1px solid #f7f6f2;
-  background: none;
+  background-color: #30b868;
   color: #f7f6f2;
   font-weight: 600;
   margin-left: 16px;
@@ -123,11 +130,13 @@
   margin: 0px auto;
   display: flex;
   align-items: center;
+  border: none;
 }
 
 .btn2:hover {
   color: #f7f6f2;
   border: 1px solid #f7f6f2;
+  background: none;
 }
 
 .early-btn {
@@ -172,10 +181,12 @@
   margin-top: 120px;
   text-align: center;
 }
+
 .body-section p {
   color: #627382;
   text-align: center;
 }
+
 .container-header .img1 {
   width: 139px;
   height: 60px;
@@ -193,6 +204,7 @@
   margin-top: 44px;
   margin-bottom: 120px;
 }
+
 .png1 img {
   background-color: rgba(255, 0, 0, 0.747);
   padding: 7px;
@@ -200,6 +212,7 @@
   margin-top: 70px;
   border-radius: 50px;
 }
+
 .png1 {
   width: 300px;
   height: 322px;
@@ -210,7 +223,6 @@
 .png1 h4 {
   text-align: center;
   font-size: 24px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   padding: 16px;
 }
 
@@ -229,6 +241,7 @@
   margin: 0px auto;
   gap: 60px;
 }
+
 .main-body img {
   width: 600px;
   height: 600px;
@@ -266,6 +279,7 @@
 .body .p1 {
   color: #30b868;
 }
+
 .body p {
   color: #627382;
 }
@@ -281,12 +295,26 @@
   margin-bottom: 120px;
 }
 
+.div-box .btn {
+  display: flex;
+  align-items: center;
+  background-color: #30b868;
+}
+
+.div-box .btn:hover {
+  color: #f7f6f2;
+  background-color: #627382;
+  border: 2px solid #30b868;
+}
+
+.div-box .btn img {
+  margin-left: 10px;
+}
+
 .div-box h1 {
   padding-top: 82px;
   padding-bottom: 16px;
   font-size: 40px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .div-box p {
@@ -307,6 +335,7 @@
   margin-bottom: 7px;
   margin: 0px auto;
 }
+
 .ftr {
   display: flex;
   justify-content: space-between;
@@ -335,9 +364,6 @@
   margin-left: 110px;
   margin-top: 80px;
   opacity: 40%;
-}
-
-hr {
 }
 
 .ftr1 p {
