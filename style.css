@@ -301,11 +301,16 @@
   align-items: center;
   background-color: #30b868;
 }
+.div-box .btn i {
+  margin-left: 5px;
+}
 
 .div-box .btn:hover {
   color: #f7f6f2;
-  background-color: #627382;
+  background-color: #ffffff;
   border: 2px solid #30b868;
+  background: transparent;
+  color: #469165;
 }
 
 .div-box .btn img {
@@ -340,7 +345,6 @@
 .footer-logo {
   text-align: center;
 }
-
 
 .ftr {
   display: flex;
