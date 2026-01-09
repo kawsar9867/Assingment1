@@ -103,7 +103,7 @@
 }
 
 .fst-btn .btn:hover {
-  background-color: #627382;
+  background-color: #ffffff;
   border: 2px solid #30b868;
 }
 
@@ -336,6 +336,11 @@
   margin-bottom: 7px;
   margin: 0px auto;
 }
+
+.footer-logo {
+  text-align: center;
+}
+
 
 .ftr {
   display: flex;
