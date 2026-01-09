@@ -34,6 +34,7 @@
 
 .menu li a:hover {
   color: #30b868;
+  font-weight: bold;
 }
 
 .hero-section {
