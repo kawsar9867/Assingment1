@@ -468,7 +468,11 @@
   }
 
   .btn-new .btn {
-    width: 167px;
+    width: 50%;
+  }
+
+  .btn-new {
+    gap: 5px;
   }
 
   .div-box {
